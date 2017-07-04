@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.cefetmg.inf.bookregister.service.impl;
+package br.cefetmg.inf.bookregister.model.service.impl;
 
-import br.cefetmg.inf.bookregister.dao.BookDAO;
-import br.cefetmg.inf.bookregister.dao.impl.BookDAOImpl;
-import br.cefetmg.inf.bookregister.domain.Book;
+import br.cefetmg.inf.bookregister.model.dao.BookDAO;
+import br.cefetmg.inf.bookregister.model.dao.impl.BookDAOImpl;
+import br.cefetmg.inf.bookregister.model.domain.Book;
 import br.cefetmg.inf.bookregister.exception.BusinessException;
 import br.cefetmg.inf.bookregister.exception.PersistenceException;
-import br.cefetmg.inf.bookregister.service.BookService;
+import br.cefetmg.inf.bookregister.model.service.BookService;
 import java.util.List;
 
 /**

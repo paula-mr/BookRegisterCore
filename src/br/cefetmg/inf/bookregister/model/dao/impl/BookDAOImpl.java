@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.cefetmg.inf.bookregister.dao.impl;
+package br.cefetmg.inf.bookregister.model.dao.impl;
 
-import br.cefetmg.inf.bookregister.dao.BookDAO;
-import br.cefetmg.inf.bookregister.domain.Book;
+import br.cefetmg.inf.bookregister.model.dao.BookDAO;
+import br.cefetmg.inf.bookregister.model.domain.Book;
 import br.cefetmg.inf.bookregister.exception.PersistenceException;
 import br.cefetmg.inf.util.db.ConnectionManager;
 import java.sql.Connection;

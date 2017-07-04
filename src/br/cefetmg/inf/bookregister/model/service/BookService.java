@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.cefetmg.inf.bookregister.service;
+package br.cefetmg.inf.bookregister.model.service;
 
-import br.cefetmg.inf.bookregister.domain.Book;
+import br.cefetmg.inf.bookregister.model.domain.Book;
 import br.cefetmg.inf.bookregister.exception.BusinessException;
 import br.cefetmg.inf.bookregister.exception.PersistenceException;
 import java.util.List;
